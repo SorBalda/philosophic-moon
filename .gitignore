@@ -1,0 +1,7 @@
+# Compiled binaries
+/moon
+/moon.exe
+/dist/
+
+# OS/editor cruft
+.DS_Store
