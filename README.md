@@ -81,8 +81,9 @@ moon
 
 One command. One small binary. Nothing else to configure — the script grabs
 the right build for your platform, checks it against the release's
-`SHA256SUMS` for you, and drops `moon` somewhere on your `PATH`. You don't
-verify anything by hand, you just get to type `moon` faster.
+`SHA256SUMS` for you, and installs it to `~/.local/bin`. You don't verify
+anything by hand — and if `~/.local/bin` isn't on your `PATH` yet, the
+script tells you the one line to add so `moon` just works after that.
 
 **Windows:** grab [`moon-windows-amd64.exe`](https://github.com/SorBalda/philosophic-moon/releases/latest)
 from Releases and run it.
