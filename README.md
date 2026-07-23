@@ -36,8 +36,16 @@ of everyone, forever. No pressure.
 
 ![The Ledge plant, tall because someone remembered to water it](docs/plant.png)
 
+Online, the Ledge grows a second tab: `#world`, one channel that reaches
+every place at once — city streets, other ledges, this rock — every line
+signed with wherever it came from, so a stranger's complaint can find you
+mid-stargaze.
+
+![Earth and an aurora over the Ledge, someone else here too, #world open with a line arriving tagged from a city below](docs/world-from-the-moon.png)
+
 **The Contemplation Dome.** The thinking part. Music, no talking. The
-anti-Crater. Some places should stay quiet.
+anti-Crater. Some places should stay quiet. `#world` reaches in here too —
+the one exception to the silence, if you go looking for it.
 
 **The Regolith Wall.** The painting part. A shared graffiti wall you paint
 with your mouse. Whatever gets drawn stays drawn — it's persistent, it's
@@ -95,6 +103,7 @@ no reinstalling, no re-running the curl line.
 
 ```
 Enter        say something
+Tab          switch to #world, when you're online
 !            water the plant
 ctrl+n       music on
 Esc          back to the moon overview
