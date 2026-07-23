@@ -74,7 +74,25 @@ it's one link away: **[github.com/SorBalda/vibeworld](https://github.com/SorBald
 
 ## Install
 
-Pick your platform, download, run:
+```sh
+curl -fsSL https://raw.githubusercontent.com/SorBalda/philosophic-moon/main/install.sh | sh
+moon
+```
+
+One command. One small binary. Nothing else to configure — the script grabs
+the right build for your platform, checks it against the release's
+`SHA256SUMS` for you, and drops `moon` somewhere on your `PATH`. You don't
+verify anything by hand, you just get to type `moon` faster.
+
+**Windows:** grab [`moon-windows-amd64.exe`](https://github.com/SorBalda/philosophic-moon/releases/latest)
+from Releases and run it.
+
+Once it's running, `moon` checks its own release channel quietly in the
+background and, if there's a newer build, offers a one-key in-app update —
+no reinstalling, no re-running the curl line.
+
+<details>
+<summary>Prefer to do it by hand? (per-platform download, no script)</summary>
 
 ```sh
 # Linux (x86_64)
@@ -88,16 +106,10 @@ chmod +x moon
 ./moon
 ```
 
-Windows: grab `moon-windows-amd64.exe` from the
-[latest release](https://github.com/SorBalda/philosophic-moon/releases/latest)
-and run it.
-
 Every asset ships next to a `SHA256SUMS` file on the same release — verify
-before you run it if you're the type (you should be).
+it yourself if you'd rather not trust the script.
 
-Once it's running, `moon` checks its own release channel quietly in the
-background and, if there's a newer build, offers a one-key in-app update —
-no reinstalling, no re-running the curl line.
+</details>
 
 ## Keys, if you need them
 
