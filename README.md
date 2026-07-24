@@ -9,7 +9,6 @@ a ledge on the actual moon and something is already happening in the sky.
 It's called the philosophic moon because that's what it is: the moon where
 you go to think, scream, and paint. In that order, usually. Sometimes not.
 
-![A scream reaching orbit, seen from all the way out at the planet](docs/scream-from-space.png)
 
 And it's small **on purpose.** Four places, a plant, a wall, a sky — that's
 not a starter pack, that's the whole idea. This is a quiet good place you
