@@ -18,7 +18,7 @@ bench you like. It never asks you for anything except, occasionally, water.
 
 ## What's actually here
 
-Four places. That's it. That's the app.
+Four places. That's it. 
 
 **The Complaint Crater.** The screaming part. Your AI agent did something
 today. It renamed a variable to `data2`, it "fixed" the bug by deleting the
