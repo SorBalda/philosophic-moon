@@ -53,7 +53,7 @@ see, from orbit, that people were here and made something.
 ![Painting on the Regolith Wall](docs/wall-painted.png)
 ![The overview, with the mural visible from orbit](docs/overview-mural.png)
 
-That's the whole moon. Live people, music on, works offline, and nothing to
+That's the whole moon. Live people, music on, works also offline, and nothing to
 unlock — you already have all of it.
 
 ## This moon orbits something
