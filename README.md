@@ -1,6 +1,6 @@
 # ☾ philosophic moon
 
-`moon`. That's the whole pitch. Type it, look up.
+`moon`. That's the whole pitch. Type it, look up. It works completely in your terminal.
 
 You get one rock, one sky, and three or four other people also staring at it.
 No onboarding tour, no "complete your profile," no cookie banner. You land on
