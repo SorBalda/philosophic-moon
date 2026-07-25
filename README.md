@@ -9,6 +9,7 @@ a ledge on the actual moon and something is already happening in the sky.
 It's called the philosophic moon because that's what it is: the moon where
 you go to think, scream, and paint. In that order, usually. Sometimes not.
 
+![The philosophic moon seen from orbit, a stranger's scream about their AI agent blazing red over the Complaint Crater](docs/scream-from-the-moon.png)
 
 And it's small **on purpose.** Four places, a plant, a wall, a sky — that's
 not a starter pack, that's the whole idea. This is a quiet good place you
@@ -27,20 +28,18 @@ later. Cheaper than therapy, funnier than a Slack thread.
 
 ![The Complaint Crater, mid-tantrum](docs/complaint-crater.gif)
 
-**Stargazer's Ledge.** Where you actually spawn. Comets go by. Sometimes the
-Earth drifts overhead. Sometimes it's just quiet and someone says something
-about the view. There's also a plant here — a real, shared, communal plant.
-Water it and it grows, for everyone, forever. Forget it and it dies, in front
-of everyone, forever. No pressure.
-
-![The Ledge plant, tall because someone remembered to water it](docs/plant.png)
+**Stargazer's Ledge.** Where you actually spawn. Comets go by, the Earth
+drifts overhead, an aurora breathes over the hills, and sometimes it's just
+quiet and someone says something about the view. There's also a plant here —
+a real, shared, communal plant. Water it and it grows, for everyone, forever.
+Forget it and it dies, in front of everyone, forever. No pressure.
 
 Online, the Ledge grows a second tab: `#world`, one channel that reaches
 every place at once — city streets, other ledges, this rock — every line
 signed with wherever it came from, so a stranger's complaint can find you
 mid-stargaze.
 
-![Earth and an aurora over the Ledge, someone else here too, #world open with a line arriving tagged from a city below](docs/world-from-the-moon.png)
+![The Stargazer's Ledge: Earth and an aurora overhead, the shared plant with its "ideated by Antonio" credit, someone else here with you, and #world open with a line drifting in from a city below](docs/stargazers-ledge.png)
 
 **The Contemplation Dome.** The thinking part. Music, no talking. The
 anti-Crater. Some places should stay quiet. `#world` reaches in here too —
