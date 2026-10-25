@@ -9,7 +9,7 @@ moon
 
 ![Orbiting the philosophic moon](docs/moon-orbit.gif)
 
-**[Land in your browser →](https://philosophic-moon.lushash4.chatgpt.site)**
+**[Land in your browser →](https://philosophic-moon.fly.dev)**
 
 **Linux x86_64 · macOS Apple Silicon.** Installs to `~/.local/bin` and verifies
 `SHA256SUMS`. If needed, follow the installer's instruction to update your `PATH`.
