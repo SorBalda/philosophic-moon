@@ -9,6 +9,8 @@ curl -fsSL https://raw.githubusercontent.com/SorBalda/philosophic-moon/main/inst
 moon
 ```
 
+![The philosophic moon seen from orbit, with animated stars and comets](docs/moon-orbit.gif)
+
 For Linux (x86_64) and macOS (Intel or Apple Silicon). The installer downloads
 the latest release, verifies its checksum against `SHA256SUMS`, and installs
 `moon` to `~/.local/bin`. If that directory is missing from your `PATH`, follow
