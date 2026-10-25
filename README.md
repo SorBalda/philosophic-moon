@@ -11,6 +11,9 @@ moon
 
 **[Land in your browser →](https://philosophic-moon.fly.dev)**
 
+> **The web version is slower.** It emulates a real terminal and streams the app from a server.
+> Install the native terminal app with the command above for the best performance.
+
 **Linux x86_64 · macOS Apple Silicon.** Installs to `~/.local/bin` and verifies
 `SHA256SUMS`. If needed, follow the installer's instruction to update your `PATH`.
 
