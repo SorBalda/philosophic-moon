@@ -2,6 +2,47 @@
 
 `moon`. That's the whole pitch. Type it, look up. It works completely in your terminal.
 
+## Install
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/SorBalda/philosophic-moon/main/install.sh | sh
+moon
+```
+
+For Linux (x86_64) and macOS (Intel or Apple Silicon). The installer downloads
+the latest release, verifies its checksum against `SHA256SUMS`, and installs
+`moon` to `~/.local/bin`. If that directory is missing from your `PATH`, follow
+the instruction printed by the installer, then run `moon`.
+
+**Windows:** grab [`moon-windows-amd64.exe`](https://github.com/SorBalda/philosophic-moon/releases/latest)
+from Releases and run it.
+
+Once it's running, `moon` checks its own release channel quietly in the
+background and, if there's a newer build, offers a one-key in-app update —
+no reinstalling, no re-running the curl line.
+
+<details>
+<summary>Prefer to do it by hand? (per-platform download, no script)</summary>
+
+```sh
+# Linux (x86_64)
+curl -fsSL -o moon https://github.com/SorBalda/philosophic-moon/releases/latest/download/moon-linux-amd64
+chmod +x moon
+./moon
+
+# macOS (Apple Silicon)
+curl -fsSL -o moon https://github.com/SorBalda/philosophic-moon/releases/latest/download/moon-macos-arm64
+chmod +x moon
+./moon
+```
+
+Every asset ships next to a `SHA256SUMS` file on the same release — verify
+it yourself if you'd rather not trust the script.
+
+</details>
+
+## A small place to land
+
 You get one rock, one sky, and three or four other people also staring at it.
 No onboarding tour, no "complete your profile," no cookie banner. You land on
 a ledge on the actual moon and something is already happening in the sky.
@@ -69,46 +110,6 @@ the same ledge and talk, in real time.
 The moon doesn't need the planet. But it's nice, on a clear night, to know
 it's there — and the day you're in the mood for a city instead of a ledge,
 it's one link away: **[github.com/SorBalda/vibeworld](https://github.com/SorBalda/vibeworld)**.
-
-## Install
-
-```sh
-curl -fsSL https://raw.githubusercontent.com/SorBalda/philosophic-moon/main/install.sh | sh
-moon
-```
-
-One command. One small binary. Nothing else to configure — the script grabs
-the right build for your platform, checks it against the release's
-`SHA256SUMS` for you, and installs it to `~/.local/bin`. You don't verify
-anything by hand — and if `~/.local/bin` isn't on your `PATH` yet, the
-script tells you the one line to add so `moon` just works after that.
-
-**Windows:** grab [`moon-windows-amd64.exe`](https://github.com/SorBalda/philosophic-moon/releases/latest)
-from Releases and run it.
-
-Once it's running, `moon` checks its own release channel quietly in the
-background and, if there's a newer build, offers a one-key in-app update —
-no reinstalling, no re-running the curl line.
-
-<details>
-<summary>Prefer to do it by hand? (per-platform download, no script)</summary>
-
-```sh
-# Linux (x86_64)
-curl -fsSL -o moon https://github.com/SorBalda/philosophic-moon/releases/latest/download/moon-linux-amd64
-chmod +x moon
-./moon
-
-# macOS (Apple Silicon)
-curl -fsSL -o moon https://github.com/SorBalda/philosophic-moon/releases/latest/download/moon-macos-arm64
-chmod +x moon
-./moon
-```
-
-Every asset ships next to a `SHA256SUMS` file on the same release — verify
-it yourself if you'd rather not trust the script.
-
-</details>
 
 ## Keys, if you need them
 
