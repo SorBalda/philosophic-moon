@@ -30,6 +30,8 @@ Works offline too. Online, `#world` connects you to everyone across VibeWorld.
 
 ## Keys
 
+![Andrea's profile and custom avatar](docs/profile.png)
+
 | Key | Action |
 | --- | --- |
 | `←` / `→` | Orbit between places in the overview |
