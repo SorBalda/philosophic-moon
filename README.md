@@ -1,7 +1,5 @@
 # ☾ philosophic moon
 
-`moon`. That's the whole pitch. Type it, look up. It works completely in your terminal.
-
 ## Install
 
 ```sh
@@ -9,138 +7,42 @@ curl -fsSL https://raw.githubusercontent.com/SorBalda/philosophic-moon/main/inst
 moon
 ```
 
-![The philosophic moon seen from orbit, with animated stars and comets](docs/moon-orbit.gif)
+![Orbiting the philosophic moon](docs/moon-orbit.gif)
 
-For Linux (x86_64) and macOS (Apple Silicon). The installer downloads
-the latest release, verifies its checksum against `SHA256SUMS`, and installs
-`moon` to `~/.local/bin`. If that directory is missing from your `PATH`, follow
-the instruction printed by the installer, then run `moon`.
+**Linux x86_64 · macOS Apple Silicon.** Installs to `~/.local/bin` and verifies
+`SHA256SUMS`. If needed, follow the installer's instruction to update your `PATH`.
 
-**Windows:** grab [`moon-windows-amd64.exe`](https://github.com/SorBalda/philosophic-moon/releases/latest)
-from Releases and run it.
+**Windows:** download and run [`moon-windows-amd64.exe`](https://github.com/SorBalda/philosophic-moon/releases/latest).
 
-Once it's running, `moon` checks its own release channel quietly in the
-background and, if there's a newer build, offers a one-key in-app update —
-no reinstalling, no re-running the curl line.
+[All downloads](https://github.com/SorBalda/philosophic-moon/releases/latest).
+New releases are offered as in-app updates.
 
-<details>
-<summary>Prefer to do it by hand? (per-platform download, no script)</summary>
+## The moon
 
-```sh
-# Linux (x86_64)
-curl -fsSL -o moon https://github.com/SorBalda/philosophic-moon/releases/latest/download/moon-linux-amd64
-chmod +x moon
-./moon
+A shared moon in your terminal: chat, watch the sky, paint, and keep a plant alive.
 
-# macOS (Apple Silicon)
-curl -fsSL -o moon https://github.com/SorBalda/philosophic-moon/releases/latest/download/moon-macos-arm64
-chmod +x moon
-./moon
-```
+- **Stargazer's Ledge:** chat under comets and auroras; water the communal plant.
+- **Complaint Crater:** launch your complaints into orbit for everyone to read.
+- **Contemplation Dome:** a quiet spot with music.
+- **Regolith Wall:** a persistent graffiti wall you paint with your mouse.
 
-Every asset ships next to a `SHA256SUMS` file on the same release — verify
-it yourself if you'd rather not trust the script.
+Works offline too. Online, `#world` connects you to everyone across VibeWorld.
 
-</details>
+## Keys
 
-## A small place to land
+| Key | Action |
+| --- | --- |
+| `←` / `→` | Orbit between places in the overview |
+| `Enter` | Descend, or send a message while chatting |
+| `Ctrl+P` | Open your profile; the profile button works too |
+| `Tab` | Switch to `#world` while chatting online |
+| `!` | Water the plant at the Ledge |
+| `Ctrl+N` | Toggle music |
+| `Esc` | Go back |
+| `q` | Quit from the overview |
 
-You get one rock, one sky, and three or four other people also staring at it.
-No onboarding tour, no "complete your profile," no cookie banner. You land on
-a ledge on the actual moon and something is already happening in the sky.
+In your profile: `p` edits expertise and links, `←` / `→` browses avatars
+(`Enter` saves), and `e` opens the pixel editor.
 
-It's called the philosophic moon because that's what it is: the moon where
-you go to think, scream, and paint. In that order, usually. Sometimes not.
-
-![The philosophic moon seen from orbit, a stranger's scream about their AI agent blazing red over the Complaint Crater](docs/scream-from-the-moon.png)
-
-And it's small **on purpose.** Four places, a plant, a wall, a sky — that's
-not a starter pack, that's the whole idea. This is a quiet good place you
-keep open in a terminal tab and come back to the way you come back to a
-bench you like. It never asks you for anything except, occasionally, water.
-
-## What's actually here
-
-Four places. That's it. 
-
-**The Complaint Crater.** The screaming part. Your AI agent did something
-today. It renamed a variable to `data2`, it "fixed" the bug by deleting the
-test, it explained your own joke back to you. Type it here and hit enter —
-it gets screamed into orbit, loud enough for everyone on the moon to read it
-later. Cheaper than therapy, funnier than a Slack thread.
-
-![The Complaint Crater, mid-tantrum](docs/complaint-crater.gif)
-
-**Stargazer's Ledge.** Where you actually spawn. Comets go by, the Earth
-drifts overhead, an aurora breathes over the hills, and sometimes it's just
-quiet and someone says something about the view. There's also a plant here —
-a real, shared, communal plant. Water it and it grows, for everyone, forever.
-Forget it and it dies, in front of everyone, forever. No pressure.
-
-Online, the Ledge grows a second tab: `#world`, one channel that reaches
-every place at once — city streets, other ledges, this rock — every line
-signed with wherever it came from, so a stranger's complaint can find you
-mid-stargaze.
-
-![The Stargazer's Ledge: Earth and an aurora overhead, the shared plant with its "ideated by Antonio" credit, someone else here with you, and #world open with a line drifting in from a city below](docs/stargazers-ledge.png)
-
-**The Contemplation Dome.** The thinking part. Music, no talking. The
-anti-Crater. Some places should stay quiet. `#world` reaches in here too —
-the one exception to the silence, if you go looking for it.
-
-**The Regolith Wall.** The painting part. A shared graffiti wall you paint
-with your mouse. Whatever gets drawn stays drawn — it's persistent, it's
-everyone's, and it shows up as a tiny mural on the moon's overview so you can
-see, from orbit, that people were here and made something.
-
-![Painting on the Regolith Wall](docs/wall-painted.png)
-![The overview, with the mural visible from orbit](docs/overview-mural.png)
-
-That's the whole moon. Live people, music on, works also offline, and nothing to
-unlock — you already have all of it.
-
-## This moon orbits something
-
-The moon isn't alone up there. It belongs to
-[VibeWorld](https://github.com/SorBalda/vibeworld) — a whole neon planet in
-your terminal, with walkable cities, voice chat, a pixel avatar editor, a
-multiplayer arcade, and the same people. Same account, too: log in once and
-the person you are on the Ledge is the person you are down there. Someone
-who rocketed up from the planet and someone who just typed `moon` stand on
-the same ledge and talk, in real time.
-
-The moon doesn't need the planet. But it's nice, on a clear night, to know
-it's there — and the day you're in the mood for a city instead of a ledge,
-it's one link away: **[github.com/SorBalda/vibeworld](https://github.com/SorBalda/vibeworld)**.
-
-## Keys, if you need them
-
-```
-Ctrl+P       open your profile (or click the profile button)
-Enter        say something
-Tab          switch to #world, when you're online
-!            water the plant
-ctrl+n       music on
-Esc          back to the moon overview
-q            quit
-```
-
-In your own profile, press `p` to edit your expertise and links, `←`/`→`
-to browse avatar templates (`Enter` to save), or `e` to open the pixel editor.
-Your changes use the same saved account and live server as VibeWorld.
-
-## The honest bit
-
-This binary and the whole moon inside it are the same code, same account,
-same live server as [VibeWorld](https://github.com/SorBalda/vibeworld) — the
-moon just doesn't make you download the whole planet to stand on it. Source
-stays with the planet for now (see VibeWorld's own README for why); this repo
-is the moon's own showroom and release channel.
-
----
-
-*Under the hood, for anyone who wants it: one small Go binary installed as
-`moon`, no Electron, no browser, same account (`~/.config/vibeworld/`), same
-live server as the full app, encrypted connection, nothing end-to-end (the
-server relays your text, so don't scream your bank PIN), voice off / music
-on, works offline too.*
+Part of **[VibeWorld](https://github.com/SorBalda/vibeworld)**:
+same account, same live server, same moon. Profile changes carry across both apps.
