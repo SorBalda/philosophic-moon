@@ -9,6 +9,8 @@ moon
 
 ![Orbiting the philosophic moon](docs/moon-orbit.gif)
 
+**[Land in your browser →](https://philosophic-moon.lushash4.chatgpt.site)**
+
 **Linux x86_64 · macOS Apple Silicon.** Installs to `~/.local/bin` and verifies
 `SHA256SUMS`. If needed, follow the installer's instruction to update your `PATH`.
 
@@ -38,7 +40,8 @@ Works offline too. Online, `#world` connects you to everyone across VibeWorld.
 | `Enter` | Descend, or send a message while chatting |
 | `Ctrl+P` | Open your profile; the profile button works too |
 | `Tab` | Switch to `#world` while chatting online |
-| `!` | Water the plant at the Ledge |
+| `!` | Water the plant (empty chat line) at the Ledge |
+| `Ctrl+W` | Water the plant while keeping your draft |
 | `Ctrl+N` | Toggle music |
 | `Esc` | Go back |
 | `q` | Quit from the overview |
