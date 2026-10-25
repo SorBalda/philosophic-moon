@@ -11,7 +11,7 @@ moon
 
 ![The philosophic moon seen from orbit, with animated stars and comets](docs/moon-orbit.gif)
 
-For Linux (x86_64) and macOS (Intel or Apple Silicon). The installer downloads
+For Linux (x86_64) and macOS (Apple Silicon). The installer downloads
 the latest release, verifies its checksum against `SHA256SUMS`, and installs
 `moon` to `~/.local/bin`. If that directory is missing from your `PATH`, follow
 the instruction printed by the installer, then run `moon`.
@@ -116,6 +116,7 @@ it's one link away: **[github.com/SorBalda/vibeworld](https://github.com/SorBald
 ## Keys, if you need them
 
 ```
+Ctrl+P       open your profile (or click the profile button)
 Enter        say something
 Tab          switch to #world, when you're online
 !            water the plant
@@ -123,6 +124,10 @@ ctrl+n       music on
 Esc          back to the moon overview
 q            quit
 ```
+
+In your own profile, press `p` to edit your expertise and links, `←`/`→`
+to browse avatar templates (`Enter` to save), or `e` to open the pixel editor.
+Your changes use the same saved account and live server as VibeWorld.
 
 ## The honest bit
 
